@@ -1,0 +1,17 @@
+Idea: AI to decide the best outfits while also linking them to sustainable fashion shops
+
+Key features for the web/mobile app:
+Put in your preferences
+Pinterest format/tinder format
+Swipe left and right on outfits that you like
+Uses AI to determine cute outfits based on data that is provided by the user’s fashion preferences
+Leads you to direct links of the clothes associated with the clothes, can be links from actual brand shops or thrifted clothes from depop, poshmark, etc.
+Generates ideas to upcycle an old piece of clothing by analyzing a photo of a clothing
+
+
+Specifically features for the browser extension:
+When on a clothing site and activated, determines whether or not a shop is sustainable by using available data and identifying patterns 
+that are often associated with sustainability and unsustainability
+Also leads you back to the web app
+
+https://girlswhocode.com/assets/images/craft-prod/images/Participant-Guide_GWC-Challenge-2024-25.pdf

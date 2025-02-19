@@ -1,0 +1,115 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    About
+{% endblock %}
+
+{% block content %}
+    <h1>About This Project</h1>
+    <h2>What is My Sustainable Closet?</h2>
+    <img src="/static/images/layout_images/closet.png">
+    <p>
+        My Sustainable Closet can be used as a web application and a mobile app that helps users practice sustainable and 
+        slow fashion, while also looking and feeling their best!
+    </p>
+    <p>
+        Fashion may not seem like it has a huge impact on the planet, but as explored in the "Impact" tab, it does! Therefore, 
+        anyone who loves to shop for clothes can also make a huge impact on the planet. Everyone wears clothes, and a lot of people
+        wear fast fashion. My Sustainable Closet combats this by promoting slow fashion, upcycling, and the reuse of clothing. 
+    </p>
+
+    <h3>A sustainable fashion finder...</h3>
+    <p>
+        The types of clothing that someone wears could enable others to treat them differently based on what social class their 
+        clothes reflect that they belong to. The reason why so many people buy fast fashion is because it's cheap and lets them 
+        express themselves without revealing their social class. Fast fashion creates clothing that all social classes can afford,
+        getting rid of the ability to differentiate someone by their clothing. 
+    </p>
+    <p>
+        Additionally, it's often hard to find brands that are sustainable but also sell trendy clothing. Fashion trends are quickly
+        adopted through the practices of fast fashion, so it makes sense that sustainable brands do not often sell trendy clothing.
+        Sustainable clothes are also often more expensive than fast fashion brands. Sustainable fashion brands are aimed towards
+        those of higher social classes that can afford their clothing, which further divides people by the clothes that they wear. 
+    </p>
+    <p>
+        To combat this problem, the main feature of my project makes it easy to shop sustainably for anyone who cannot afford
+        traditional sustainable clothing brands, but also want to look their best and express themselves. 
+    </p>
+    <p>
+        My Sustainable Closet combats this issue by introducing a feature that recommends to you clothes found from online thrifting
+        websites or sustainable fashion brands that match your style! My project utilizes AI to achieve this. The user is led to a
+        swiping screen where they are shown a piece of clothing and are asked to indicate whether or not they like it. The AI notes
+        down what kind of styles and patterns the user likes and doesn't like in a database. The AI analyzes the dataset obtained from
+        the action of the user swiping. The AI then goes through multiple databases from online thrifting companies and sustainable fashion
+        brands that would agree to give my project access to its data. By analyzing these datasets, the AI matches the user's style to a
+        couple of listings that would be fitting for the user to buy.
+    </p>
+    <img src="/static/images/layout_images/swiping.png">
+    <img src="/static/images/layout_images/recommendations.png">
+    <h3>A virtual closet...</h3>
+    <p>
+        There are also a couple of issues that have arised from the growing trend of thrifting. Thrifting allows those who do not
+        have enough money to afford stylish clothes to look and feel their best. However, thrifting has become more popular among
+        the middle and upper social classes who can afford sustainable fashion brands, but are attracted by the low prices of
+        thrifted clothing.
+    </p>
+    <p>
+        My project combats this by introducing a virtual closet feature. All of the clothes in a user's closet can be put into the
+        system manually via search and links, but the user is also given the option to take a photo of their clothes and let the AI
+        use image identification to find the piece of clothing online. This would be achieved by using a convolutional neural network,
+        which is a machine learning model that can categorize images based on a large database.
+    </p>
+    <img src="/static/images/layout_images/camera.png">
+    <img src="/static/images/layout_images/search_broad.png">
+    <img src="/static/images/layout_images/search_link.png">
+    <img src="/static/images/layout_images/manual.png">
+    <p>
+        The recommendations that the AI finds online can also be viewed in the virtual closet. This allows the user to play around
+        with different outfits and helps the user decide if a piece of clothing is worth buying. This reduces overconsumption and
+        makes online shopping more sustainable and easy. I am a very indecisive person and often buy clothes that don't fit the overall
+        aesthetic of my closet. I end up not wearing these clothes and they become a waste, which is why I thought of this feature.
+    </p>
+    <p>
+        This feature of my project also gives the AI the ability to detect whether or not a piece of clothing that the user wants to buy
+        is similar to what is already in their clothing. After being recommended a piece of a clothing, the user can click on the image of
+        the clothing and be lead to the website that sells it. However, if the AI detects that the user already has something similar in
+        their closet, the user will be prompted with a screen that displays the piece of clothing that is similar to piece they're
+        about to buy. 
+    </p>
+    <img src="/static/images/layout_images/similar.png">
+    <h3>An upcycling idea generator...</h3>
+    <p>
+        Fashion trends die very quickly and to keep up with the trends, people buy new clothes and leave their old ones dusting in the
+        closet and eventually in landfills. This is known as overconsumerism, where people are encouraged to buy more clothes than they need.
+        To combat this, a lot of people tend to upcycle their old clothing. However, not everyone is experienced in tailoring or fashion design.
+        The Upcycling Chatbot combats this issue by making it easy to come up with ideas on how to reuse clothing.
+    </p>
+    <p>
+        It can generate ideas on how to upcycle a piece of clothing that a user provides. Instead of leaving your old clothes in your
+        closet and wasting money on new ones, the Upcycling Chatbot makes it easy for you to keep up with fashion trends and save money, as well as 
+        save the environment. The AI chatbot would be fed information about the your style as well, so the ideas would also be based on the 
+        your preferences. For example, if I swiped "I like it!" on a lot of tank tops and were to ask the chatbot how to upcycle an old 
+        T-shirt, the chatbot would generate an idea of how to turn my T-shirt into a tank top. Additionally, the chatbot would be able
+        to generate the materials and steps based on the measurements of the clothing the user provided, and the style that the user prefers. 
+    </p>
+    <img src="/static/images/layout_images/upcycling.png">
+
+    <h2>My Sustainable Closet | Browser Extension Edition</h2>
+    <p>
+        As a browser extension, My Sustainable Closet would make it easy for online shoppers to identify which brands are sustainable, 
+        and which are not. While on a website of a fashion brand that is not sustainable, a small popup would appear to notify the user that 
+        the brand they're shopping from is harmful to the environment. A small symbol would also appear on the search page next to brands that
+        are not sustainable. For example, in the image below, a small symbol would appear next to the links to H&M and Urban Outfitters. 
+    </p>
+    <img src="/static/images/searchpage.png">
+    <p>In addition to this feature, any known information about a brand's sustainability can be accessed through the browser extension.
+        A user would simply have to search the name of the brand, or go to the brand's website, and then click on the browser extension. 
+        The user will be provided with the option to access information about the brand, which is similar to the function of the website
+        Good On You. 
+    </p>
+    <p>
+        Additionally, the browser extension lets users add clothes that they just purchased to their virtual closet, rather than adding it manually
+        or through the camera. This makes it easy for users to track how many clothes they've purchased to prevent overconsumerism and a waste of
+        money.
+    </p>
+{% endblock %}

@@ -1,0 +1,53 @@
+**Designing** 
+    (done) design the format of the web app
+    (done) design the format of the generating upcycle feature
+    (done) design the swiping mechanism page
+    (done) design the adding clothes to closet features
+
+**Coding**
+    create about pages
+        (done) about
+        (done) impact
+        (done) inequalities
+        (done) process
+        (done) reflection
+        (done) sources
+
+    create webapp
+        (done) my closet page
+        (done) swiping
+        (done) adding clothes to closet
+        (done) chatbot
+
+
+**Writing**
+    about page
+        (done) write about the project itself
+        (done) write about browser extension idea
+
+    impact
+        (done) deadstock and overproduction
+        (done) textiles and energy intensive production
+        (done) microplastics
+        (done) the usage of viscose
+        (done) excessive use of water
+
+    inequalities
+        (done) the exploitation of the lower class
+        (done) gender discrimination against women and girls
+        (done) addressing classism
+    
+    process
+        (done) before developing the project
+        (done) the research process
+        (done) the coding process
+        (done) finalizing the project
+
+    reflection
+        (done) how does your project use AI to help people with sustainability in a way that hasn't been done before?
+        (done) describe a challenge you faced. How did you overcome it? how did you reach out for help?
+        (done) what did you learn from this process that will impact the way you interact with technology in the future?
+        (done) why did you choose this format for your project?
+    
+    sources
+        (done) add sources

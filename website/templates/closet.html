@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Profile | My Sustainable Closet</title>
+    <link rel="stylesheet" href="/static/stylesheets/webapp.css">
+    <link rel="icon" type="image/x-icon" href="/static/images/logo1.png">
+</head>
+<body>
+    <div class="nav">
+        <a href="/about">About</a>
+        <a href="/"><img src="/static/images/icon2.png" class="icon"></a>
+        <a href="/chatbot"><img src="/static/images/icon1.png" class="icon"></a>
+    </div>
+    <div class="content">
+        <h1>Add Clothes to Closet</h1>
+        <div class="adding_clothes">
+            <button id="open_modal_camera">Camera</button>
+            <button id="open_modal_search">Search</button>
+            <button id="open_modal_manual">Manual</button>
+        </div>
+
+        <div class="modal" id="modal_camera">
+            <div class="modal_inner">
+                <h2>Camera</h2>
+                <img src="/static/images/image18.jpg">
+                <button id="close_modal_camera">Close</button>
+            </div>
+        </div>
+        
+        <div class="modal" id="modal_search">
+            <div class="modal_inner">
+                <input type=“text” id="modal_search" placeholder="Insert link or search by name">
+                <img src="/static/images/image19.jpg">
+                <button id="close_modal_search">Close</button>
+            </div>
+        </div>
+
+        <div class="modal" id="modal_manual">
+            <div class="modal_inner">
+                <img src="/static/images/image24.jpg">
+                    <input type=“text” id="modal_manual_name" placeholder="Insert name">
+                    <input type="text" id="modal_manual_info" placeholder="Other Information (ex: brand, size, etc.)">    
+                <button id="close_modal_manual">Close</button>
+            </div>
+        </div>
+
+
+        <h2>Four Ways to Input Clothing into Closet</h2>
+        <p>Take a photo to insert clothing, the AI will analyze the photo and confirm that the piece of clothing they identified is the correct one.</p>
+        <div class="closet">
+            <img src="/static/images/layout_images/camera.png">
+        </div>
+
+        <p>Search up the name of the piece of clothing. A very broad way of searching for clothes.</p>
+        <div class="closet">
+            <img src="/static/images/layout_images/search_broad.png">
+        </div>
+
+        <p>Insert a link to the clothing listing if available online, details about the piece of clothing will automatically be indentified.</p>
+        <div class="closet">
+            <img src="/static/images/layout_images/search_link.png">
+        </div>
+
+        <p>Take a photo of the clothing and the user can put in the details themselves (brand, name, type of clothing, style).</p>
+        <div class="closet">
+            <img src="/static/images/layout_images/manual.png">
+        </div>
+    </div>
+    <script>
+        // for camera modal
+        const open_btn_camera = document.getElementById("open_modal_camera");
+        const close_btn_camera = document.getElementById("close_modal_camera");
+        const modal_camera = document.getElementById("modal_camera");
+        open_btn_camera.addEventListener("click", () =>{
+            modal_camera.classList.add("open");
+        });
+    
+        close_btn_camera.addEventListener("click", () => {
+            modal_camera.classList.remove("open");
+        });
+
+        // for search modal
+        const open_btn_search = document.getElementById("open_modal_search");
+        const close_btn_search = document.getElementById("close_modal_search");
+        const modal_search = document.getElementById("modal_search");
+
+        open_btn_search.addEventListener("click", () => {
+            modal_search.classList.add("open");
+        });
+
+        close_btn_search.addEventListener("click", () => {
+            modal_search.classList.remove("open");
+        });
+
+        // for manual modal
+        const open_btn_manual = document.getElementById("open_modal_manual");
+        const close_btn_manual = document.getElementById("close_modal_manual");
+        const modal_manual = document.getElementById("modal_manual");
+
+        open_btn_manual.addEventListener("click", () => {
+            modal_manual.classList.add("open");
+        });
+
+        close_btn_manual.addEventListener("click", () => {
+            modal_manual.classList.remove("open");
+        });
+    </script>
+</body> 
+   

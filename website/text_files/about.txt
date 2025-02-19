@@ -1,0 +1,62 @@
+<ol>
+        <li>
+            MAIN FEATURE: Outfit planner, similar to stylebook but uses the recommendations made by the AI 
+            to make outfits with clothes that are already in the user's closet
+            <p>
+                All clothes in the user's closet can be put into the system manually via search and links, 
+                but the user can also just take a photo of their clothes and the AI will use image identification 
+                to find the piece of clothing online
+            </p>
+            <p>
+                The recommended pieces of clothing that the AI recommends after the user uses the swiping mechanism 
+                will be available to plan and design outfits.
+            </p>
+        </li>
+        <br>
+        <li>
+            Fashion recommendation and making online thrifting easier
+            <p>
+                When a user first signs into their account, they will be met with a blank screen indicating that 
+                they haven't “started swiping” yet. Swiping is essentially a way for the application to get the know 
+                the user's style and preferences. There will be a button at the top left that says “start swiping” and 
+                they will begin the swiping.
+            </p>
+            <p>
+                Swiping: The user is presented with an outfit that may or may not be of their taste. They will indicate 
+                whether or not they like it. When they click one of the buttons, the image is stored in a database for the 
+                AI to later analyze. The user has to swipe on more and more outfits if they want their recommendations to be 
+                more accurate. 
+            </p>
+            <p>
+                By using the data from the swiping mechanism, the AI provides the user with sustainable fashion brands that produce 
+                clothing of the same style. The application will hopefully partner with other sustainable fashion apps, such as Depop 
+                and Poshmark to achieve the next part. The AI will also have access to data from Depop and Poshmark that includes 
+                images of clothes that users are currently selling. The AI will then put these listings on the user's front page 
+                and lead them to the Depop or Poshmark link. 
+            </p>
+            <p>
+                Liked outfits and styles are in another section of the web app. Lists the different styles that the user likes. 
+                User can also manually input their own styles if they know themselves and think the AI isn't good enough. The AI 
+                will display a variety of outfits that are of the manually imputed style(s) and dive even deeper into the user's 
+                preferences. 
+            </p>
+            <p>
+                Convolutional neural network: If the user doesn't want to swipe a lot, they can simply provide a photo of inspiration 
+                for an outfit that they really like. The AI will then scan the database of online thrifting brands and find clothes to 
+                build the outfit for the user.
+            </p>
+        </li>
+        <br>
+        <li>
+            AI chatbot and convolutional neural network for image identification that provides unique ways the user can turn their old 
+            clothing into something new based on their preferences
+            <p>
+                After swiping and letting the AI collect data on what styles and clothing they like, the user will unlock a feature 
+                that encourages upcycling. If the user has old clothing they would like to recycle, they can take a picture of the 
+                clothing and provide a brief description of its dimensions. Then, the user can either choose to generate a random idea 
+                based on their preferences or send in a photo of a piece of clothing they'd like to recreate with their old piece of 
+                clothing.
+            </p>
+        </li>
+        <br>
+    </ol>

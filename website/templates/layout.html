@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{% block title %}{% endblock %} | My Sustainable Closet</title>
+    <link rel="stylesheet" href="/static/stylesheets/main.css">
+    <link rel="icon" type="image/x-icon" href="/static/images/logo1.png">
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <div class="topnav">
+        <a href="/" class="icon">Closet</a>
+        <a href="/about">About</a>
+        <a href="/impact">Impact</a>
+        <a href="/inequalities">Inequalities</a>
+        <a href="/process">Process</a>
+        <a href="/reflection">Reflection</a>
+        <a href="/sources">Sources</a>
+    </div>
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
